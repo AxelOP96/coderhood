@@ -11,10 +11,18 @@ un protocolo es un acuerdo en la forma de comunicarse entre dos partes. Las comp
 **Backend(Vamos a crear nuestro servidor Node.js con su base de datos y vamos a permitir conexiones de nuestra web).
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-*Clase 2: 13/05/2021*
-
+*Clase 2: 13/05/2021 Algoritmos y datos*
+¿Que es programar? Es manejar datos, es hablarle a la maquina a traves de un lenguaje que pueda entender. Se crean lenguajes que nos permitan comunicarnos con ella utilizando lenguaje humano. Programar se trata de escribir algoritmos que la mayoria pueda ejecutar. 
+**Los algoritmos: son una secuencia de pasos para llegar a un objetivo. Dentro de los algoritmos podemos encontrar condiciones, procesar informacion y ejecutar acciones. 
+**Datos: en los algoritmos mayormente nos encontramos con la necesidad de guardar informacion.
+**Logica y control de decisiones: en cualquier lenguaje de programacion, el codigo necesita realizar decisiones y llevar a cabo diferentes acciones acordes dependiendo de distintas entradas.
+** usamos "=" para asignar valores y "==" para comparar. 
+**Operadores Logicos: operador AND requiere que ambas condiciones si o si sean verdaderas para que la composicion sea verdadera. operador OR requiere que una de las condiciones sea verdadera para que la composicion de ambas sea verdadera.
+**Condicionales: if y else
+**Variables: una variables esta compuesta por un espacio en memoria, un dato y un identificador el cual se usa para acceder a ese espacio en memoria y recuperar el codigo en JavaScript.
+**tipado: un tipo es un atributo que define ciertas restricciones a los datos, es decir la clase de dato que va a contener la variable. JavaScript es un lenguaje de tipado dinamico ya que puede cambiar de tipo de dato durante la ejecucion.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 3: 16/05/2021
+*Clase 3: 16/05/2021*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Clase 4: 20/05/2021
