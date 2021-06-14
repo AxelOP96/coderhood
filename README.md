@@ -31,24 +31,83 @@ for(var i = 0; i < x; i++) {
  while: Se va a repetir mientras se cumpla una condicion siempre que sea verdadera y no se necesita una variable auxiliar. Ejemplo:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-*Clase 4: 20/05/2021*
+*Clase 4: 20/05/2021 Modularizacion y funciones*
+**Diferencias entre const, let y var:
+Antes de empezar a hablar de las diferencias de cada una tenemos que entender que es el
+ámbito o scope de una variable.
+El scope de una variable se define como el alcance que tiene esta dentro del código, es decir,
+en que puntos del programa una variable puede ser usada y en qué puntos no. 
+Variable con Var:
+Las declaraciones var tienen alcance global y en la función alcance local.
+El alcance es global cuando una variable var se declara fuera de una función. Esto significa
+que cualquier variable que se declare con var fuera de un bloque de funciones está disponible
+para su uso en todo el programa.
+var tiene un alcance de función cuando se declara dentro de una función. Esto significa que
+está disponible y se puede acceder solo dentro de esa función. Las variables declaradas con var se pueden volver a declarar y actualizar, esto significa que
+podemos hacer esto dentro del mismo alcance y no obtendremos un error.
+Variable con let
+El problema que comentábamos que tiene var lo soluciona let. El alcance de let es por
+bloque, un bloque es todo fragmento de código que este entre {}.
+Variable con const
+Las variables declaradas con const tienen el mismo comportamiento que let con la
+diferencia que el valor se tiene que asignar al momento de la declaración y no puede
+cambiar. const no se puede actualizar o volver a declarar.
+Visto todo esto, mencionemos las diferencias entre  var, let y const:
+Las declaraciones var tienen un alcance global o alcance a una función mientras que let
+y const tienen un alcance de bloque.
+Las variables var se pueden actualizar y volver a declarar dentro de su alcance, mientras
+que las variables let permite que las variables se puedan actualizar, pero no volver a
+declarar y las variables const no se pueden actualizar ni volver a declarar.
+Mientras que var y let pueden declararse sin inicializarse, const debe inicializarse
+durante la declaración.
+**Modularizacion: dividir un problema en partes mas simples. Modularizacion refiere a dividir el programa en partes mas pequeñas dedicadas a hacer un trabajo en especifico, la cual tendrian que trabajar junto al resto del codigo. Los beneficios que nos da modularizar es no repetir codigo, facil mantenimiento del programa y mayor legibilidad. La forma de modularizar en JavaScript es haciendo funciones.
+**Funciones: una funcion es un bloque de codigo encargado de una tarea en especifico. Estas funciones van a recibir valores llamados parametros.
+una funcion en JavaScript es similar a un procedimiento, un conjunto de instrucciones que realiza una tarea o calcula un valor, pero un procedimiento califique como funcion debe tomar alguna entrada y devolver una salida donde hay alguna relacion obvia entre la entrada y la salida. para usar una funcion debes definirla en algun lugar del ambito desde el que deseas llamarla. Las funciones también pueden recibir datos como parámetros o no, los veremos un poco
+mas adelante.
+una funcion consta de la palabra clave function seguida de: el nombre de la funcion; una lista de parametros de la funcion y separados por comas.no necesariamente hay que pasarles parametros; el bloque de codigo que vas a ejecutar para las funciones en JavaScript que definen entre llaves; dentro de la funcion hay que agregar un return, es una palabra clave encargada de devolver algo, el resultado de la ejecucion del codigo.
+**Hablemos un poco de parametros en JavaScript
+Primero vamos a decir que tenemos dos formas de pasar parámetros en programación en
+general, por valor y por referencia.
+Por valor significa que la función recibe sólo una copia del valor que tiene la variable, o
+sea que no la puede modificar.
+Por referencia significa que se pasa la posición de memoria donde esta guardada la
+variable, por lo que la función puede saber cuánto vale, pero además puede modificarla
+de cualquier manera.Los parámetros primitivos (Number, Boolean, String, Undefined) en JavaScript se pasan por
+valor por eso mismo no podemos modificar esos parámetros dentro de la función para que
+se vean reflejados fuera. Pero si pasamos un objeto como parámetro, este sí se va a modificar porque lo hace por
+referencia, es decir se van a ver reflejados fuera de la función. Cuando pasamos los parámetros hay que tomar en cuenta tres casos que se pueden
+presentar.
+Enviar menos parámetros de lo que tiene declarado la función, a esas variables que no le
+asignamos un valor javascript no dispara un error, sino que le asigna el valor "undefined". Enviar más parámetros de lo que definimos en la función, simplemente los ignora es
+decir no devuelve un error. El orden en que mandamos los parámetros y el que declaramos en la función tiene que
+ser el mismo y no necesariamente se tienen que llamar iguales.
+**Llamar a las funciones
+Definir una función no la ejecuta. Definirla simplemente nombra la función y especifica qué
+hacer cuando se llama a la función.
+Básicamente llamar a la función consiste en escribir su nombre en donde queramos que se
+ejecute ese bloque de código. El código anterior llama a la función con un argumento de 5 y 2. La función ejecuta sus
+declaraciones internas y devuelve el valor 7.
+Las funciones deben llamarse dentro del ámbito donde fueron declaradas para que se puedan
+ejecutar.
+El ámbito de una función es la función en la que se declara (o el programa completo, si se
+declara en el nivel superior).El scope es el espacio donde esta definida una variable.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 5: 23/05/2021
+*Clase 5: 23/05/2021 Estructuras de datos*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 6: 27/05/2021
+*Clase 6: 27/05/2021 Estructuras de datos 2*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 7: 30/05/2021
+*Clase 7: 30/05/2021 Manejo de errores*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 8: 03/06/2021
+*Clase 8: 03/06/2021 Asincronismo y promesas*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 9: 06/06/2021
+*Clase 9: 06/06/2021*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 10:10/06/2021
+*Clase 10:10/06/2021*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
