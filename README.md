@@ -22,10 +22,16 @@ un protocolo es un acuerdo en la forma de comunicarse entre dos partes. Las comp
 **Variables: una variables esta compuesta por un espacio en memoria, un dato y un identificador el cual se usa para acceder a ese espacio en memoria y recuperar el codigo en JavaScript.
 **tipado: un tipo es un atributo que define ciertas restricciones a los datos, es decir la clase de dato que va a contener la variable. JavaScript es un lenguaje de tipado dinamico ya que puede cambiar de tipo de dato durante la ejecucion.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-*Clase 3: 16/05/2021*
+*Clase 3: 16/05/2021 Estructuras de control*
+**Estructuras repetitivas: For es una estructura que repite una serie x veces. Los parametros que recibe son: antes de empezar a repetir, definimos la variable auxiliar esta variable indica el numero de la repeticion; antes de cada repeticion realizamos esta comparacion, si esta comparacion resulta verdadera repetimos, en caso contrario se detiene la estructura repetitiva; luego de cada repeticion se realiza esta operacion, el operador ++ aumenta en 1 el valor de la variable i, es lo mismo que hacer i = i + 1; ejemplo:
+var x = 10;
+for(var i = 0; i < x; i++) {
+    console.log(i);
+}
+ while: Se va a repetir mientras se cumpla una condicion siempre que sea verdadera y no se necesita una variable auxiliar. Ejemplo:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Clase 4: 20/05/2021
+*Clase 4: 20/05/2021*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Clase 5: 23/05/2021
