@@ -80,3 +80,20 @@ while (inicio < limite) {
     inicio++;
     inicio + inicio;
 }
+//CLASE 4 TAREA 1
+function esPar(arr) {
+    if (arr % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+esPar();
+//TAREA 2
+function inversa(arr) {
+    return arr().reverse();
+}
+//TAREA 3
+function ordenar() {
+    if (a < b )
+}

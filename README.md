@@ -94,7 +94,29 @@ declara en el nivel superior).El scope es el espacio donde esta definida una var
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 *Clase 5: 23/05/2021 Estructuras de datos*
-
+**Estructuras de datos
+Estas nos dan formas de organizar información, cada estructura es la mejor para algun cierto
+caso de uso.
+Nosotros vamos a aprender a usar dos, Objects y Arrays. Otras estructuras que existen son
+Listas, Arboles, Grafos, etc.
+**Objects
+Almacena datos desordenados a travez de clave y valor.
+Osea, acá voy a guardar datos poniendoles un nombre y con ese nombre los voy a recuperar
+despues. Algo así como ponerle una etiqueta a un objeto y meterla en un cajón o cartera. Dentro de cualquier estructura de datos vamos a poder obtener, agregar,
+modificar o sacar datos. Excelente, para que me sirve 😅?
+Usamos objetos para agrupar informacion similar, en el dia a dia como desarrollador cuando nos comuniquemos con un servidor vamos a recibir la informacion agrupada en objetos la gran mayoria de las veces. Como regla general, si diferentes datos pertenecen a algo y vamos
+a necesitar acceder por el nombre a estos datos, seguramente debamos guardar esta info en objetos.
+**Arrays
+Almacena datos ordenados por su posicion.
+Osea, acá voy a guardar datos y despues para sacarlos voy a tener que recorrer el array hasta
+encontrarlo. Dentro de los arrays podemos guardar tambien objetos!
+Y dentro de un objeto podria definir un array? Podemos tener objetos dentro de arrays y arrays dentro de objetos. Para obtener los datos de un array necesitamos decir la posicion a la que queremos acceder,
+ya que los datos no se guardan con una clave como en los objetos, sino por posicion
+empezando desde 0. Y como agregamos y eliminamos datos en un array? Usando las funciones push y pop. Tambien podemos agregar objetos, esto es muy usado y nos va a servir un monton. Pero casi nunca vamos a saber la posicion del elemento que queremos acceder, por eso
+vamos un for para recorrer los arrays y encontrar lo que buscamos. Aca podriamos ser
+creativos y recorrer el array de distintas formas, pero el for es de las mas usadas. Para eliminar elementos de un array tenemos la funcion pop. Usamos arrays para agrupar información que vamos a querer recorrer luego. Los objetos no
+podemos recorrerlos, no son "iterables". Array viene con muchas funcionalidades que vamos
+a ver en la proxima clase. 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 *Clase 6: 27/05/2021 Estructuras de datos 2*
 
